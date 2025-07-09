@@ -4,43 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../../imagens/favicon.ico" type="image/x-icon">
-    <title>Outras Formatacções</title>
+    <title>Trabalhando com listas</title>
 </head>
 <body>
-    <h1>Outras Formatacções</h1>
-    <h2>Codigo Fonte / Pre formatação</h2>
-    <p>o comando <strong><code>System.out.println("Hello, World")</code></strong> é escrito em Java</p>
-    <p>usamos a tag <strong>&lt;code&gt;</strong>para o texto monoespaçado</p>
-    <p>Neste exemplo usamos a tag <strong>&lt;pre&gt;</strong> para que seja respeitada a indentação do codigo escrito</p>
-    <pre>
-        <code>
-    public class main{
-        public static void main(String[] args){
-            String saudacao = "Hello, World";
-            System.out.println(saudacao);
-        }
-    }
-        </code>
-    </pre>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
     <hr>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rapido</q></p>
-    <p>para isso usamos a tag <strong>&lt;q&gt;</strong></p>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
     <hr>
-    <h2>Citações completas</h2>
-    <p>Trecho do livro O Clube da Luta, de Chuck Palahniuk:</p>
-    <blockquote cite= "https://books.google.com.br/books?id=oUMg6nsMljEC&printsec=copyright&redir_esc=y#v=onepage&q=ela%20n%C3%A3o%20morre%20&f=false">
-        <q>O que você precisa saber é que Marla ainda esta viva. A filosofia de vida de Marla, ela me disse, é que ela pode morrer a qualquer momento. A tragédia na vida dela é que ela não morre. </q>
-    </blockquote>
-    <p>Para isso usamos a tag <strong>&lt;blockquote&gt;</strong></p>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
     <hr>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <p>Para isso usamos a tag <strong>&lt;abbr&gt;</strong></p>
+    <h2>Minha lista de jogos favoritos de cada plataforma</h1>
+    <p>Eu reuni alguns dos jogos que mais joguei ou que eu mais goste de cada plataforma, segue a lista:</p>
+    <ol >
+        <li><strong>Playstation 3</strong></li>
+        <ul>
+            <li>God of War</li>
+            <ul type="circle">
+                <li>God of War I</li>
+                <li>God of War II</li>
+                <li>God of War III</li>
+            </ul>
+            <li>Uncharted</li>
+            <li>Grand Theft Auto V</li>
+            <li>Tomb Raider</li>
+        </ul>
+        <li><strong>Playstation 2</strong></li>
+        <ul>
+            <li>Good Hand</li>
+            <li>Call of Dutty 3</li>
+            <li>Mortal Kombat Shaolin monks</li>
+        </ul>
+        <li><strong>PC</strong></li>
+        <ul>
+            <li>Fortnite</li>
+            <li>Counter Strike</li>
+            <ul type="circle">
+                <li>Counter Strike Global Offesivel</li>
+                <li>Counter Strike 2</li>
+            </ul>
+            <li>Red Dead Redemption</li>
+            <li>Rocket League</li>
+            <li>Valorant</li>
+            <li>Resident Evil 2: Remake</li>
+        </ul>
+    </ol>
+    <p>Nesse exemplo nos usamos as tags &lt;ol&gt; para criarmos uma lista <strong>ordenada</strong></p>
+    <p>E usamos a tag &lt;ul&gt; para criar uma lista <strong>não ordernada</strong></p>
     <hr>
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas com <abbr title="Hypertext Markup Language">HTML</abbr></bdo></p>
-    <hr>
-
+    <h2>Lista e definições de linguagens</h2>
+    <dt>
+        <dl><abbr title="Hypertext Markup Language"><strong>HTML</strong></abbr></dl>
+        <dd>Linguagem utilizada para dar forma ao conteudo de paginas da Web</dd>
+        <dl><abbr title="Cascading Style Sheets"><strong>CSS</strong></abbr></dl>
+        <dd>Linguagem de estilização usada para se criar estilos em paginas da Web</dd>
+        <dl><abbr title="Java"><strong>Java</strong></abbr></dl>
+        <dd>Linguaguem de programação com foco em Orientação a Objetos, comunmente usada em backend de programas</dd>
+    </dt>
 </body>
-</html>
+</html> 
