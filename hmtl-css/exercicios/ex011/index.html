@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../imagens/favicon.ico" type="image/x-icon">
+    <title>Img Dinamica</title>
+</head>
+<body>
+    <h1>Testando o dinamismo das imagens</h1>
+    <picture>
+        <source media="(max-width:350px)" scrset="lime300.jpg" type="image/jpg">
+        <source media="(max-width: 750px)" srcset="lime700.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="lime1000.jpg" type="image/jpg">
+        <img src="fruit-8848715_1280.jpg" alt="imagem flexivel funciona">
+    </picture>
+</body>
+</html>
