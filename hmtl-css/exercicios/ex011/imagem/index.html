@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../imagens/favicon.ico" type="image/x-icon">
+    <title>Img Dinamica</title>
+</head>
+<body>
+    <h1>Testando o dinamismo das imagens</h1>
+    <p>para que possamos adequar o tamanho da imagem de forma dinamica e automatica podemos usar a tag <strong>&lt;picture&gt</strong>; e dentro dele devemos usar a tag <strong>&lt;source&gt;</strong></p>
+    <p>a tag <strong>&lt;source&gt</strong>; deve ter alguns atributos junto a ela como:</p>
+    <br>
+    <dl>
+        <dt><strong>media=""</strong></dt>
+        <dd>Aqui deve ser especificado o tamanho maximo que o dispositivo deve ter, como por exeplo media="(max=width:350px)"</dd>
+        <br>
+        <dt><strong>srcset=""</strong></dt>
+        <dd>Aqui devemos especificar o arquivo que será carregado caso a condição media seja atendida</dd>
+        <br>
+        <dt><strong>type=""</strong></dt>
+        <dd>Aqui devemos definir o tipo de arquivo que será carregado, você pode conferir os tipos de arquivos em:<a href="https://www.iana.org/assignments/media-types/media-types.xhtml">https://www.iana.org/assignments/media-types/media-types.xhtml</a></dd>
+    </dl>
+    </dd>
+    <hr>
+    <picture>
+        <source media="(max-width:350px)" srcset="lime300.jpg" type="image/jpg">
+        <source media="(max-width: 750px)" srcset="lime700.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="lime1000.jpg" type="image/jpg">
+        <img src="fruit-8848715_1280.jpg" alt="imagem flexivel funciona">
+        <p><a href="pag02.html"><strong>pagina 2</strong></a></p>
+    </picture>
+</body>
+</html>
