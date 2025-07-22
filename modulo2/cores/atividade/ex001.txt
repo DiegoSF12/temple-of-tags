@@ -1,0 +1,49 @@
+🎨 Desafio: "Cartão Pessoal com Paleta Harmônica"
+🎯 Objetivo:
+Criar um card de apresentação pessoal (tipo um mini perfil), usando uma paleta de cores harmônicas que você mesmo montar usando o Adobe Color ou o Paletton.
+
+🧩 O que deve conter:
+Um div centralizado na tela com:
+
+Seu nome em destaque
+
+Uma breve descrição (como se fosse uma mini bio)
+
+Um botão de contato (pode ser fictício: "Fale comigo", "Ver mais", etc.)
+
+🖌️ Requisitos de estilo:
+Escolha uma paleta com 3 a 5 cores harmônicas (análogas, complementares, tríades… você escolhe).
+
+Aplique:
+
+Cor de fundo para a página
+
+Cor de fundo para o card
+
+Cor para o texto
+
+Cor de destaque para o botão
+
+Use :hover no botão com uma variação sutil da cor
+
+Utilize font-family personalizada do Google Fonts (ex: 'Poppins', 'Roboto', 'Merriweather'… escolha uma que tenha a sua cara)
+
+💡 Extras (opcional):
+Se quiser incrementar, pode:
+
+Adicionar um avatar (imagem sua ou fictícia)
+
+Usar box-shadow pra dar profundidade
+
+Colocar animações suaves com transition
+
+🧪 Exemplo visual (só pra ilustrar a ideia):
+markdown
+Copiar
+Editar
+-------------------------
+|        Diego          |
+| Técnico em TI e dev  |
+| apaixonado por indie |
+|        [Fale comigo] |
+-------------------------
